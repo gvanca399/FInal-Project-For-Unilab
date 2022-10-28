@@ -342,8 +342,8 @@ body.dark-theme {
 }
 
 .home__img-bg {
-  border-radius: 50000vmax;
-
+  width: 258px;
+  height: 430px;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
@@ -352,6 +352,7 @@ body.dark-theme {
   justify-self: flex-end;
   transform: translateX(1.5rem);
   box-shadow: 2px 30px 30px whitesmoke;
+  border-radius: 50000vmax;
 
 }
 .slider-main-block__slide img{
