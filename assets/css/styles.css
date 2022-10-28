@@ -342,11 +342,8 @@ body.dark-theme {
 }
 
 .home__img-bg {
-  background-color: var(--first-color);
-  border-top-left-radius: 200px;
-  border-top-right-radius: 200px;
-  width: 258px;
-  height: 430px;
+  border-radius: 50000vmax;
+
   padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
@@ -354,8 +351,12 @@ body.dark-theme {
   align-items: flex-end;
   justify-self: flex-end;
   transform: translateX(1.5rem);
-}
+  box-shadow: 2px 30px 30px whitesmoke;
 
+}
+.slider-main-block__slide img{
+  border-radius: 50000vmax;
+}
 .home__social {
   position: absolute;
   top: 35%;
