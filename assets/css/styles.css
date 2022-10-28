@@ -735,7 +735,7 @@ body.dark-theme {
   height: 75%;
   background:rgba(55,55,55,.6);
   backdrop-filter: blur(20px);
-  padding: 20px;
+  padding: 15px;
 }
 /* ======================= form ================= */
 .label {
